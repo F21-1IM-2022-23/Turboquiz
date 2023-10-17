@@ -1,0 +1,52 @@
+* { 
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:
+        auto
+        1fr
+        auto;
+    margin-inline: auto;
+    text-align: center;
+}
+header {
+    background-color: lightgray;
+    /* Sett stilen til header-område her. */
+}
+main {
+    background-color: darkgray;
+    /* Sett stilen til hovedinnholdet her her. */
+}
+footer {
+    background-color: lightgray;
+    /* Sett stilen til footeren her. */
+}
+.quizTittel {
+    /* Sett stilen til tittelen her. */
+}
+.spmTekst {
+    /* Sett stilen til spørsmålene her. */
+}
+.knapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+a,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+.knapp {
+    margin-inline: 1rem;
+    margin-block: 0.5rem;
+    padding: 0.5rem;
+    background-color: lightgray;
+    /* Sett stilen til knappene her. */
+}
+.forfatterNavn {
+     /* Sett stilen til forfatterne her. */
+}
